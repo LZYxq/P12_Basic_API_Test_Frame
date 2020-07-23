@@ -9,8 +9,8 @@ from testcases.begin_dev.om_login_cases import OM_login
 class station(unittest.TestCase):
     # OM_login.setUp()
     # OM_login.tearDown()
-    # om_login.test_asset_token()
-    # access_token = {}
+     # OM_login.test_asset_token()
+     # access_token = {}
     def setUp(self) -> None:
         warnings.simplefilter('ignore', ResourceWarning)
         self.hosts = local_config.URL
@@ -32,7 +32,7 @@ class station(unittest.TestCase):
             'current':1,
             'sort':1
         }
-        # respose =self.session.get(url=self.hosts + '/apis/om/station/all',headers=headers,params=params)
+        respose =OM_login.session.get(url=self.hosts + '/apis/om/station/all',headers=headers,params=params)
         respose=self.session.get(url=self.hosts+'/apis/om/station/all',headers=headers,params=params)
         logger.info(print(respose.text))
 

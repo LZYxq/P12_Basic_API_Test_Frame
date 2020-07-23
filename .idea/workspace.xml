@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0c6c097-d786-44dd-aed3-a0f6959c32c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/P12_Basic_API_Test_Frame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/P12_Basic_API_Test_Frame.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ApiTest_2020_07_23.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ApiTest_2020_07_23.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/start_runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/begin_dev/om_login_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/begin_dev/om_login_cases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/begin_dev/om_station_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/begin_dev/om_station_cases.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +33,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
   </component>
-  <component name="RunManager" selected="Python.start_runner">
+  <component name="RunManager" selected="Python tests.Unittests for om_station_cases.station.test_get_thinsboardtoken">
     <configuration name="check_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="P12_Basic_API_Test_Frame" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,8 +99,23 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for om_station_cases.station.test_get_thinsboardtoken" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="P12_Basic_API_Test_Frame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/begin_dev" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;om_station_cases.station.test_get_thinsboardtoken&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for om_station_cases.station.test_get_thinsboardtoken" />
         <item itemvalue="Python.start_runner" />
         <item itemvalue="Python.excel_utils" />
         <item itemvalue="Python.check_utils" />
@@ -123,17 +140,37 @@
       <option name="project" value="LOCAL" />
       <updated>1595404265078</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="线性框架02">
+      <created>1595468422172</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595468422172</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="线性框架01" />
-    <option name="LAST_COMMIT_MESSAGE" value="线性框架01" />
+    <MESSAGE value="线性框架02" />
+    <option name="LAST_COMMIT_MESSAGE" value="线性框架02" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2359" y="110" key="CommitChangelistDialog2" timestamp="1595404263957">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="439" y="110" key="CommitChangelistDialog2" timestamp="1595468421326">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="439" y="110" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595468421326" />
     <state x="2359" y="110" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595404263957" />
     <state x="1967" y="80" key="DiffContextDialog" timestamp="1595404830082">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -147,29 +184,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="804" y="421" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595405629427" />
-    <state width="1608" height="249" key="GridCell.Tab.0.bottom" timestamp="1595468145778">
+    <state width="1608" height="249" key="GridCell.Tab.0.bottom" timestamp="1595497001341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595468145778" />
-    <state width="1608" height="249" key="GridCell.Tab.0.center" timestamp="1595468145778">
+    <state width="1608" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595497001341" />
+    <state width="1608" height="249" key="GridCell.Tab.0.center" timestamp="1595497001341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="249" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595468145778" />
-    <state width="1608" height="249" key="GridCell.Tab.0.left" timestamp="1595468145777">
+    <state width="1608" height="249" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595497001341" />
+    <state width="1608" height="249" key="GridCell.Tab.0.left" timestamp="1595497001341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="249" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595468145777" />
-    <state width="1608" height="249" key="GridCell.Tab.0.right" timestamp="1595468145778">
+    <state width="1608" height="249" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595497001341" />
+    <state width="1608" height="249" key="GridCell.Tab.0.right" timestamp="1595497001341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="249" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595468145778" />
-    <state x="2246" y="159" key="SettingsEditor" timestamp="1595409208454">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1608" height="249" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595497001341" />
+    <state x="326" y="159" key="SettingsEditor" timestamp="1595484515110">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="326" y="159" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595484515110" />
     <state x="2246" y="159" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595409208454" />
-    <state x="995" y="223" key="Vcs.Push.Dialog.v2" timestamp="1595404981217">
+    <state x="995" y="223" key="Vcs.Push.Dialog.v2" timestamp="1595468911079">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="995" y="223" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595468911079" />
     <state x="995" y="223" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595404981217" />
+    <state x="749" y="351" key="git4idea.ui.GitTagDialog" timestamp="1595468527042">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="749" y="351" key="git4idea.ui.GitTagDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595468527042" />
   </component>
 </project>

@@ -27,10 +27,12 @@ runner = HTMLTestReportCN.HTMLTestRunner(stream=fp,
                                          tester="liuzhongyi",
                                          title="OM_API_TEST",
                                          description="study~~~")
-runner.run( get_all_cases_suite() )
-fp.close()
+# runner.run( get_all_cases_suite() )
+# fp.close()
 # EmailUtils( open(report_path,'rb').read() ,report_path).send_mail()
 if __name__=='__main__':
+    runner.run(get_all_cases_suite())
+    fp.close()
     # get_all_cases_suite()
     # report_path = RunCase().run()
     EmailUtils( open(report_path,'rb').read(),report_path).send_mail()
