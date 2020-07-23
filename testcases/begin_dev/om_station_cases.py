@@ -32,7 +32,7 @@ class station(unittest.TestCase):
             'current':1,
             'sort':1
         }
-        respose =OM_login.session.get(url=self.hosts + '/apis/om/station/all',headers=headers,params=params)
+#         respose =OM_login.session.get(url=self.hosts + '/apis/om/station/all',headers=headers,params=params)
         respose=self.session.get(url=self.hosts+'/apis/om/station/all',headers=headers,params=params)
         logger.info(print(respose.text))
 
