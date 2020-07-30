@@ -75,7 +75,7 @@ class OM_login(unittest.TestCase):
         logger.info('请求用户数据')
         print(actual_result.content.decode('utf-8'))
 
-OM_login=OM_login()
+
 if __name__=="__main__":
     # suite=unittest.TestSuite()
     # suite.addTest(OM_login('test_asset_token'))

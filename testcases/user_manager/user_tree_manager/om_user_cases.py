@@ -12,7 +12,12 @@ class user_manager(unittest.TestCase):
         warnings.simplefilter('ignore', ResourceWarning)
         self.hosts = local_config.URL
         self.session = requests.session()
-        pass
+        self.headers = {
+            'Authorization': 'Bearer ' + OM_login.access_token['access_token'],
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36',
+            'Accept': 'application/json, text/plain, */*'
+        }
+
 
     def tearDown(self) -> None:
         pass
@@ -31,7 +36,7 @@ class user_manager(unittest.TestCase):
             'orderBy':'createTime',
             'username':''
         }
-        respose=self.session.get(url=self.hosts+'/apis/admin/user/page',headers=headers,params=params)
+        respose=self.session.get(url=self.hosts+'/apis/admin/user/page',headers=self.headers,params=params)
         print(respose.text)
 
     def test_getRole(self):
@@ -46,7 +51,7 @@ class user_manager(unittest.TestCase):
             'size': 10,
             'current': 1,
         }
-        respose = self.session.get(url=self.hosts + '/apis/admin/role/list', headers=headers, params=params)
+        respose = self.session.get(url=self.hosts + '/apis/admin/role/list', headers=self.headers, params=params)
         print(respose.text)
 
     def test_greatemember(self):
@@ -59,7 +64,7 @@ class user_manager(unittest.TestCase):
         }
         params = {"trelloName":"","username":"fff","sex":"0","role":[2],"phone":"15552115654","email":"23@qq.com","password":"123456","birthDate":"2020-07-22","staffNumber":"","deptId":1,"deptName":"","lockFlag":"0","$lockFlag":"有效"}
 
-        respose= self.session.get(url=self.hosts+'/apis/admin/user',headers=headers,data=params)
+        respose= self.session.get(url=self.hosts+'/apis/admin/user',headers=self.headers,data=params)
         print(respose.text)
 
     def test_tree(self):
@@ -69,7 +74,7 @@ class user_manager(unittest.TestCase):
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36',
             'Accept': 'application/json, text/plain, */*'
         }
-        respose=self.session.get(url=self.hosts+'/apis/admin/menu/tree',headers=headers)
+        respose=self.session.get(url=self.hosts+'/apis/admin/menu/tree',headers=self.headers)
         print(respose.text)
 
 

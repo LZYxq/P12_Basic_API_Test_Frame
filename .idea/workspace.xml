@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0c6c097-d786-44dd-aed3-a0f6959c32c4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/common/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/config_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/requests_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/testdata_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/ApiTest_2020_07_23.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ApiTest_2020_07_23.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/start_runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ApiTest_2020_07_21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/ApiTest_2020_07_23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/API_TEST_V1.0/API_TEST_V1.0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/API_TEST_V1.1/API_TEST_V1.1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/API_TEST_V1.2/API_TEST_V1.2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/begin_dev/om_login_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/begin_dev/om_login_cases.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/begin_dev/om_station_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/begin_dev/om_station_cases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/user_manager/user_tree_manager/om_user_cases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/user_manager/user_tree_manager/om_user_cases.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,52 +41,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common" />
     <property name="settings.editor.selected.configurable" value="configurable.group.project" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for om_station_cases.station.test_get_thinsboardtoken">
-    <configuration name="check_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="P12_Basic_API_Test_Frame" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/check_utils.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="excel_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="P12_Basic_API_Test_Frame" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/excel_utils.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\24640\PycharmProjects\P12_Basic_API_Test_Frame\common" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.start_runner">
     <configuration name="start_runner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="P12_Basic_API_Test_Frame" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -99,6 +71,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for om_login_cases.OM_login.test_asset_token" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="P12_Basic_API_Test_Frame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/begin_dev" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;om_login_cases.OM_login.test_asset_token&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for om_station_cases.station.test_get_stattionallstatus" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="P12_Basic_API_Test_Frame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/begin_dev" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;om_station_cases.station.test_get_stattionallstatus&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for om_station_cases.station.test_get_thinsboardtoken" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="P12_Basic_API_Test_Frame" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,12 +113,27 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in om_login_cases.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="P12_Basic_API_Test_Frame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/begin_dev" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/begin_dev/om_login_cases.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for om_station_cases.station.test_get_thinsboardtoken" />
         <item itemvalue="Python.start_runner" />
-        <item itemvalue="Python.excel_utils" />
-        <item itemvalue="Python.check_utils" />
+        <item itemvalue="Python tests.Unittests for om_station_cases.station.test_get_stattionallstatus" />
+        <item itemvalue="Python tests.Unittests for om_login_cases.OM_login.test_asset_token" />
+        <item itemvalue="Python tests.Unittests in om_login_cases.py" />
+        <item itemvalue="Python tests.Unittests for om_station_cases.station.test_get_thinsboardtoken" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595468422172</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="线性框架02">
+      <created>1595497739284</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595497739284</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,7 +177,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -167,10 +191,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="线性框架02" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="439" y="110" key="CommitChangelistDialog2" timestamp="1595468421326">
+    <state x="439" y="110" key="CommitChangelistDialog2" timestamp="1595497738550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="439" y="110" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595468421326" />
+    <state x="439" y="110" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595497738550" />
     <state x="2359" y="110" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595404263957" />
     <state x="1967" y="80" key="DiffContextDialog" timestamp="1595404830082">
       <screen x="1920" y="0" width="1920" height="1040" />
@@ -184,32 +208,36 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="804" y="421" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595405629427" />
-    <state width="1608" height="249" key="GridCell.Tab.0.bottom" timestamp="1595497001341">
+    <state width="1608" height="200" key="GridCell.Tab.0.bottom" timestamp="1595913684802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595497001341" />
-    <state width="1608" height="249" key="GridCell.Tab.0.center" timestamp="1595497001341">
+    <state width="1608" height="200" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595913684802" />
+    <state width="1608" height="200" key="GridCell.Tab.0.center" timestamp="1595913684802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="249" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595497001341" />
-    <state width="1608" height="249" key="GridCell.Tab.0.left" timestamp="1595497001341">
+    <state width="1608" height="200" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595913684802" />
+    <state width="1608" height="200" key="GridCell.Tab.0.left" timestamp="1595913684802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="249" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595497001341" />
-    <state width="1608" height="249" key="GridCell.Tab.0.right" timestamp="1595497001341">
+    <state width="1608" height="200" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595913684802" />
+    <state width="1608" height="200" key="GridCell.Tab.0.right" timestamp="1595913684802">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1608" height="249" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595497001341" />
+    <state width="1608" height="200" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595913684802" />
     <state x="326" y="159" key="SettingsEditor" timestamp="1595484515110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="326" y="159" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595484515110" />
     <state x="2246" y="159" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595409208454" />
-    <state x="995" y="223" key="Vcs.Push.Dialog.v2" timestamp="1595468911079">
+    <state x="995" y="223" key="Vcs.Push.Dialog.v2" timestamp="1595497754163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="995" y="223" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595468911079" />
+    <state x="995" y="223" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595497754163" />
     <state x="995" y="223" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1595404981217" />
+    <state x="630" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1595899603949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="630" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595899603949" />
     <state x="749" y="351" key="git4idea.ui.GitTagDialog" timestamp="1595468527042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
