@@ -48,7 +48,7 @@ six==1.15.0
 toml==0.10.1
 tomorrow3==1.1.0
 tzlocal==2.1
-urllib3==1.25.9
+urllib3==1.26.5
 websocket==0.2.1
 websocket-client==0.57.0
 Werkzeug==1.0.1
